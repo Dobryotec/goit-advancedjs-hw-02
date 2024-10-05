@@ -81,11 +81,11 @@ input[type='text'] {
 }
 
 input[type='text']:hover,
-input[type='number']:hover {
+.form input[type='number']:hover {
   border: 1px solid #000;
 }
 input[type='text']:active,
-input[type='number']:active {
+.form input[type='number']:active {
   border: 1px solid #4e75ff;
 }
 input[type='text']:disabled {
@@ -145,7 +145,7 @@ body .flatpickr-calendar {
   line-height: 1.2;
 }
 
-input[type='number'] {
+.form input[type='number'] {
   width: 360px;
   height: 40px;
   border-radius: 4px;
